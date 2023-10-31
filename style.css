@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    border: 2px solid blue;
+    margin: 1px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.danielCard {
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.jonathanCard {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+@media(min-width: 600px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-left {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 75%;
+    }
+
+    .main-left-top {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-left-top-left {
+        display: flex;
+        flex-basis: 66%;
+    }
+
+    .main-left-bottom {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-left-bottom-left {
+        display: flex;
+        flex-basis: 33%;
+    }
+
+    .main-right {
+        display: flex;
+        flex-basis: 25%;
+    }
+}
